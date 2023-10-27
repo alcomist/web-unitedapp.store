@@ -1,9 +1,9 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "30K DEV Home"
 
 # Language settings
-contentDir = "content/en"
-defaultContentLanguage = "en"
+contentDir = "content/ko"
+defaultContentLanguage = "ko"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -59,31 +59,20 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
-[languages.en]
-languageName ="English"
+[languages.ko]
+languageName ="한글"
 # Weight used for sorting.
 weight = 1
+[languages.ko.params]
+title = "30K DEV Home"
+description = "A 30K DEV Home for 100 Apps"
+
+[languages.en]
+languageName ="English"
+contentDir = "content/en"
 [languages.en.params]
 title = "Goldydocs"
 description = "A Docsy example site"
-
-[languages.no]
-languageName ="Norsk"
-contentDir = "content/no"
-[languages.no.params]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
-
-[languages.fa]
-languageName ="فارسی"
-contentDir = "content/fa"
-[languages.fa.params]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
 
 [markup]
   [markup.goldmark]
