@@ -93,7 +93,8 @@ description = "A Docsy example site"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
+copyright = "30K DEV"
+author = "30K DEV"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -192,17 +193,17 @@ enable = false
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/google/docsy"
+  url = "https://github.com/alcomist"
   icon = "fab fa-github"
   desc = "Development takes place here!"
 [[params.links.developer]]
   name = "Slack"
-  url = "https://example.org/slack"
+  url = "https://theliterati.slack.com"
   icon = "fab fa-slack"
   desc = "Chat with other project developers"
 [[params.links.developer]]
   name = "Developer mailing list"
-  url = "https://example.org/mail"
+  url = "https://gmail.com"
   icon = "fa fa-envelope"
   desc = "Discuss development issues around the project"
 
